@@ -1,11 +1,11 @@
 @echo off
-title DAW - FCMS 2.0 Installer & Downloader
-color 0B
+:: تجاوز حماية ملفات الإنترنت
+powershell -Command "Unblock-File -Path '%~f0'" >nul 2>&1
 
-:: 1. Run as Administrator
+:: التأكد من الصلاحيات
 net session >nul 2>&1
 if %errorLevel% neq 0 (
-    echo [!] ERROR: Please Right-click > Run as Administrator
+    echo [!] يرجى تشغيل الملف كمسؤول..
     pause
     exit
 )
@@ -54,4 +54,5 @@ echo [SUCCESS] FCMS TOOL is Installed AND Saved to Desktop.
 echo.
 echo You can now find 'fcms_tool.crx' on your desktop.
 echo ====================================================
+
 pause
