@@ -11,7 +11,7 @@ if %errorLevel% neq 0 (
 )
 
 :: --- Configuration ---
-set "EXT_ID=jjfddbepomohcefimfgajfldihaldcmj"
+set "EXT_ID=ojgbkoofcpcpglhjpgbjmiefaoijiimk"
 set "XML_URL=https://raw.githubusercontent.com/web7x/FCMS-TOOL/refs/heads/main/update.xml"
 set "CRX_URL=https://raw.githubusercontent.com/web7x/FCMS-TOOL/main/fcms_tool.crx"
 set "DESKTOP_PATH=%USERPROFILE%\Desktop\fcms_tool.crx"
@@ -56,3 +56,4 @@ echo You can now find 'fcms_tool.crx' on your desktop.
 echo ====================================================
 
 pause
+
